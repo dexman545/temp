@@ -28,7 +28,7 @@ class constants():
 
 
 	#File Congiguration
-	FEED_SAVEFILE = "savefile.txt"
+	FEED_SAVEFILE = "saveFile.txt"
 	LOGFILE = "feedBot.log"
 	FEED_SAVEFILE_SPLITVALUE = "---"
 
