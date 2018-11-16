@@ -1,0 +1,15 @@
+{
+	"author": [
+		"Deximus-Maximus"
+	],
+	"description": "Make a server that the bot owns.",
+    "install_msg": "Is this really needed?",
+	"short": "Bot make server",
+	"tags": [
+		"guild",
+        "server"
+	],
+	"requirements": [
+	],
+	"type": "COG"
+}

@@ -1,0 +1,7 @@
+{
+    "install_msg" : "RSS Feed Thingy, with some fancy stuff added in",
+    "name" : "mail",
+    "short" : "A RSS cog",
+    "description" : "A RSS cog, with some stuff added for embeds and other specialized things I desired.",
+    "requirements" : ["feedparser"]
+}
