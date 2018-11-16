@@ -18,12 +18,12 @@ class feedFilesystem:
 			try: # checks if the file exists
 				with open(constants.FEED_SAVEFILE,"r") as oldFeedSaveFile: # reads the old file
 					for line in oldFeedSaveFile: # checks if it can find the feedType in the feedSavefile
-					if(line.startswith(feedType)):
-						dividedLine = line.split("---")
-						newFeedSaveFile.write(updatedDate) 
-						returnDate = dividedLine[1] # sets the date found to the value that will be returned
-					else:
-						newFeedSaveFile.write(line)
+						if(line.startswith(feedType)):
+							dividedLine = line.split("---")
+							newFeedSaveFile.write(updatedDate) 
+							returnDate = dividedLine[1] # sets the date found to the value that will be returned
+						else:
+							newFeedSaveFile.write(line)
 				remove(constants.FEED_SAVEFILE) # removes the old file 
 			except FileNotFoundError: 
 				pass
